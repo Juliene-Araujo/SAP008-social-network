@@ -23,7 +23,7 @@ export default () => {
         </h1>
         <p id= 'error-message' class = 'error-message'> </p>
         <p>
-          O cuidar da nossa mente é essencial para a nossa capacidade 
+          O cuidado com a nossa mente é essencial para a nossa capacidade 
           de viver e gerir a vida, por esse motivo reunimos alguns sites 
           e aplicativos que podem nos ajudar com esse cuidado no dia a dia.
         </p>
@@ -86,9 +86,6 @@ export default () => {
         messageError.classList.add('show');
       });
   });
-
-
-
 
   return containerLink;
 };
