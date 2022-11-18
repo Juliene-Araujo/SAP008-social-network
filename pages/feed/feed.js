@@ -102,6 +102,9 @@ export default function Feed() {
 
     const btnsLike = postList.querySelectorAll('.btn-like');
     const postsElements = feed.querySelectorAll('.allposts');
+    postList.querySelectorAll('.like-icon').forEach(likeIcon => {
+      likeIcon.innerHTML += `${likeIcon.classList.value}, ${likeIcon.style.color}`;
+    })
 
     // editar posts //
     postsElements.forEach((post) => {
